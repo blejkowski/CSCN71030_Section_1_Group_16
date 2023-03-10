@@ -1,10 +1,13 @@
 ﻿  switches.c
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(18,12): warning C4013: 'atoi' undefined; assuming extern returning int
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(57): warning C4715: 'vehicleSelection': not all control paths return a value
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(93): warning C4715: 'rentalSelection': not all control paths return a value
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(128): warning C4715: 'customerSelection': not all control paths return a value
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(158): warning C4715: 'rentalAgreementSelection': not all control paths return a value
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(218): warning C4715: 'settingsSelection': not all control paths return a value
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(269): warning C4715: 'mainSelection': not all control paths return a value
-C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(188): warning C4715: 'billingSelection': not all control paths return a value
-  CSCN71030GroupProject.vcxproj -> C:\Users\cdbau\Source\Repos\CSCN71030_Section_1_Group_16\x64\Debug\CSCN71030GroupProject.exe
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(19,12): warning C4013: 'atoi' undefined; assuming extern returning int
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(46,47): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(46,43): warning C4024: 'createVehicle': different types for formal and actual parameter 2
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(46,12): warning C4101: 'newVehicle': unreferenced local variable
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(63): warning C4715: 'vehicleSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(99): warning C4715: 'rentalSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(134): warning C4715: 'customerSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(164): warning C4715: 'rentalAgreementSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(275): warning C4715: 'mainSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(194): warning C4715: 'billingSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(224): warning C4715: 'settingsSelection': not all control paths return a value
+  CSCN71030GroupProject.vcxproj -> C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\x64\Debug\CSCN71030GroupProject.exe

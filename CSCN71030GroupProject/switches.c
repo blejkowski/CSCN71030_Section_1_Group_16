@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "menus.h"
+#include "vehicle.h"
 
 #define NUM_SIZE_BYTES 4
 //this is where we do the functionality
@@ -52,6 +53,9 @@ bool vehicleSelection(void) {
 		case 5:
 			printf("Main Menu");
 			break;
+		default:
+			return false;
+			break;
 		}
 	}
 }
@@ -73,19 +77,19 @@ bool rentalSelection(void) {
 			return false;
 		switch (option) {
 		case 1:
-			printf("Make a Reservation");
+			printf("Make a Reservation Function");
 			break;
 		case 2:
-			printf("View a Reservation");
+			printf("View a Reservation Function");
 			break;
 		case 3:
-			printf("Edit a Reservation");
+			printf("Edit a Reservation Function");
 			break;
 		case 4:
-			printf("Delete a Reservation");
+			printf("Delete a Reservation Function");
 			break;
 		case 5:
-			printf("Main Menu");
+			printf("Main Menu Function");
 			break;
 
 		}
@@ -109,19 +113,19 @@ bool customerSelection(void) {
 			return false;
 		switch (option) {
 		case 1:
-			printf("Add Customer");
+			printf("Add Customer Function");
 			break;
 		case 2:
-			printf("View Customer");
+			printf("View Customer Function");
 			break;
 		case 3:
-			printf("Edit Customer");
+			printf("Edit Customer Function");
 			break;
 		case 4:
-			printf("Delete Customer");
+			printf("Delete Customer Function");
 			break;
 		case 5:
-			printf("Main Menu");
+			printf("Main Menu Function");
 			break;
 		}
 	}
@@ -144,13 +148,13 @@ bool rentalAgreementSelection(void) {
 			return false;
 		switch (option) {
 		case 1:
-			printf("View Rental Agreement");
+			printf("View Rental Agreement Function");
 			break;
 		case 2:
-			printf("Print Rental Agreement");
+			printf("Print Rental Agreement Function");
 			break;
 		case 3:
-			printf("Main Menu");
+			printf("Main Menu Function");
 			break;
 
 		}
@@ -174,13 +178,13 @@ bool billingSelection(void) {
 			return false;
 		switch (option) {
 		case 1:
-			printf("Get Invoice");
+			printf("Get Invoice Function");
 			break;
 		case 2:
-			printf("Print Invoice");
+			printf("Print Invoice Function");
 			break;
 		case 3:
-			printf("Main Menu");
+			printf("Main Menu Function");
 			break;
 		
 		}
@@ -204,13 +208,13 @@ bool settingsSelection(void) {
 			return false;
 		switch (option) {
 		case 1:
-			printf("Date and Time");
+			printf("Date and Time Function");
 			break;
 		case 2:
-			printf("Currency");
+			printf("Currency Function");
 			break;
 		case 3:
-			printf("Main Menu");
+			printf("Main Menu Function");
 			break;
 
 		}

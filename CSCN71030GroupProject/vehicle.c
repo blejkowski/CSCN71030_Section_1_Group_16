@@ -8,7 +8,7 @@
 
 
 
-VEHICLE createVehicle(char* year, char* make, char* model, int kilometers, double costPerDay) {
+VEHICLE createVehicle(int carId, char* year, char* make, char* model, int kilometers, double costPerDay) {
 	VEHICLE newVehicle;
 	newVehicle.carId = rand() % 1000 + 1;
 	//check if vehicle has the same id then redo it
