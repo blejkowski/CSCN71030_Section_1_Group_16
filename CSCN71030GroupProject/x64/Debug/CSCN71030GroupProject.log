@@ -1,7 +1,10 @@
-﻿  main.c
-  switches.c
-C:\Users\bryan\source\repos\CSCN71030GroupProject\CSCN71030GroupProject\switches.c(18,12): warning C4013: 'atoi' undefined; assuming extern returning int
-  Generating Code...
-C:\Users\bryan\source\repos\CSCN71030GroupProject\CSCN71030GroupProject\switches.c(81): warning C4715: 'mainSelection': not all control paths return a value
-C:\Users\bryan\source\repos\CSCN71030GroupProject\CSCN71030GroupProject\switches.c(37): warning C4715: 'vehicleSelection': not all control paths return a value
-  CSCN71030GroupProject.vcxproj -> C:\Users\bryan\source\repos\CSCN71030GroupProject\x64\Debug\CSCN71030GroupProject.exe
+﻿  switches.c
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(18,12): warning C4013: 'atoi' undefined; assuming extern returning int
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(57): warning C4715: 'vehicleSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(93): warning C4715: 'rentalSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(128): warning C4715: 'customerSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(158): warning C4715: 'rentalAgreementSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(218): warning C4715: 'settingsSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(269): warning C4715: 'mainSelection': not all control paths return a value
+C:\Users\cdbau\source\repos\CSCN71030_Section_1_Group_16\CSCN71030GroupProject\switches.c(188): warning C4715: 'billingSelection': not all control paths return a value
+  CSCN71030GroupProject.vcxproj -> C:\Users\cdbau\Source\Repos\CSCN71030_Section_1_Group_16\x64\Debug\CSCN71030GroupProject.exe

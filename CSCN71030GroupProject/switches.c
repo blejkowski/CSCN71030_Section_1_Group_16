@@ -49,9 +49,176 @@ bool vehicleSelection(void) {
 		case 4:
 			printf("Delete Vehicle Function");
 			break;
+		case 5:
+			printf("Main Menu");
+			break;
 		}
 	}
 }
+
+bool rentalSelection(void) {
+	bool thirdMenu = true;
+	int option;
+	char buf[NUM_SIZE_BYTES];
+
+	printRentalMenu();
+
+	while (thirdMenu) {
+		if (!fgets(buf, NUM_SIZE_BYTES, stdin)) {
+			return 1;
+		}
+		option = atoi(buf);
+
+		if (option == 0)
+			return false;
+		switch (option) {
+		case 1:
+			printf("Make a Reservation");
+			break;
+		case 2:
+			printf("View a Reservation");
+			break;
+		case 3:
+			printf("Edit a Reservation");
+			break;
+		case 4:
+			printf("Delete a Reservation");
+			break;
+		case 5:
+			printf("Main Menu");
+			break;
+
+		}
+	}
+}
+
+bool customerSelection(void) {
+	bool thirdMenu = true;
+	int option;
+	char buf[NUM_SIZE_BYTES];
+
+	printCustomerMenu();
+
+	while (thirdMenu) {
+		if (!fgets(buf, NUM_SIZE_BYTES, stdin)) {
+			return 1;
+		}
+		option = atoi(buf);
+
+		if (option == 0)
+			return false;
+		switch (option) {
+		case 1:
+			printf("Add Customer");
+			break;
+		case 2:
+			printf("View Customer");
+			break;
+		case 3:
+			printf("Edit Customer");
+			break;
+		case 4:
+			printf("Delete Customer");
+			break;
+		case 5:
+			printf("Main Menu");
+			break;
+		}
+	}
+}
+
+bool rentalAgreementSelection(void) {
+	bool thirdMenu = true;
+	int option;
+	char buf[NUM_SIZE_BYTES];
+
+	printRentalAgreementMenu();
+
+	while (thirdMenu) {
+		if (!fgets(buf, NUM_SIZE_BYTES, stdin)) {
+			return 1;
+		}
+		option = atoi(buf);
+
+		if (option == 0)
+			return false;
+		switch (option) {
+		case 1:
+			printf("View Rental Agreement");
+			break;
+		case 2:
+			printf("Print Rental Agreement");
+			break;
+		case 3:
+			printf("Main Menu");
+			break;
+
+		}
+	}
+}
+
+bool billingSelection(void) {
+	bool thirdMenu = true;
+	int option;
+	char buf[NUM_SIZE_BYTES];
+
+	printBillingMenu();
+
+	while (thirdMenu) {
+		if (!fgets(buf, NUM_SIZE_BYTES, stdin)) {
+			return 1;
+		}
+		option = atoi(buf);
+
+		if (option == 0)
+			return false;
+		switch (option) {
+		case 1:
+			printf("Get Invoice");
+			break;
+		case 2:
+			printf("Print Invoice");
+			break;
+		case 3:
+			printf("Main Menu");
+			break;
+		
+		}
+	}
+}
+
+bool settingsSelection(void) {
+	bool thirdMenu = true;
+	int option;
+	char buf[NUM_SIZE_BYTES];
+
+	printSettingsMenu();
+
+	while (thirdMenu) {
+		if (!fgets(buf, NUM_SIZE_BYTES, stdin)) {
+			return 1;
+		}
+		option = atoi(buf);
+
+		if (option == 0)
+			return false;
+		switch (option) {
+		case 1:
+			printf("Date and Time");
+			break;
+		case 2:
+			printf("Currency");
+			break;
+		case 3:
+			printf("Main Menu");
+			break;
+
+		}
+	}
+}
+
+
+
 
 bool mainSelection(void) {
 
@@ -73,19 +240,23 @@ bool mainSelection(void) {
 			secondMenu = vehicleSelection();
 			break;
 		case 2:
-			printRentalMenu();
+
+			secondMenu = rentalSelection();
 			break;
 		case 3:
-			printCustomerMenu();
+			
+			secondMenu = customerSelection();
 			break;
 		case 4:
-			printRentalAgreementMenu();
+
+			secondMenu = rentalAgreementSelection();
 			break;
 		case 5:
-			printBillingMenu();
+
+			secondMenu = billingSelection();
 			break;
 		case 6:
-			printSettingsMenu();
+			secondMenu = settingsSelection();
 			break;
 
 		default:

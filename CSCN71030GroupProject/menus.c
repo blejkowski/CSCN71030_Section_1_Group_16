@@ -25,15 +25,17 @@ void printVehicleMenu(void) {
 	printf("\n1) View Current Inventory");
 	printf("\n2) Add Vehicle");
 	printf("\n3) Edit Vehicle");
-	printf("\n4) Delete Vehicle \n");
+	printf("\n4) Delete Vehicle");
+	printf("\n5) Main Menu \n");
 }
 
 void printRentalMenu(void) {
 	printf("To choose a function, enter its letter label:");
 	printf("\n1) Make a Reservation");
 	printf("\n2) View a Reservation");   //
-	printf("\n4) Edit A reservation");   //to be done by customer name
-	printf("\n5) Delete a Reservation \n"); //
+	printf("\n3) Edit A reservation");   //to be done by customer name
+	printf("\n4) Delete a Reservation"); //
+	printf("\n5) Main Menu \n");
 }
 
 void printCustomerMenu(void) {
@@ -41,23 +43,27 @@ void printCustomerMenu(void) {
 	printf("\n1) Add Customer");
 	printf("\n2) View Customer");  //
 	printf("\n3) Edit Customer");  // done by name
-	printf("\n4) Delete Customer \n");//
+	printf("\n4) Delete Customer");//
+	printf("\n5) Main Menu \n");
 }
 
 void printRentalAgreementMenu(void) {
 	printf("To choose a function, enter its letter label:");
 	printf("\n1) View Rental Agreement");
-	printf("\n1) Print Rental Agreement \n");
+	printf("\n2) Print Rental Agreement");
+	printf("\n3) Main Menu \n");
 }
 
 void printBillingMenu(void) {
 	printf("To choose a function, enter its letter label:");
 	printf("\n1) Get Invoice");
-	printf("\n1) Print Invoice \n");
-}
+	printf("\n2) Print Invoice");
+	printf("\n3) Main Menu \n");
+}	
 
 void printSettingsMenu(void) {
 	printf("To choose a function, enter its letter label:");
 	printf("\n1) Date and Time");
-	printf("\n1) Currency \n");
+	printf("\n2) Currency");
+	printf("\n3) Main Menu \n");
 }
